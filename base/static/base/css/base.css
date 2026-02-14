@@ -340,7 +340,7 @@ label{
 }
 .subheading p{
      font-size: var(--fontSize-extrasmall);
-     color: var(--heading-color-w);
+     color: rgb(70, 69, 69);
     
 }
 /* navbar  */
