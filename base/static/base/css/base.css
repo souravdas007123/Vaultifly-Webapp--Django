@@ -456,6 +456,62 @@ label{
     text-align: center;
     color: var(--heading-color-w);
 }
+/* dashboard  */
+.dashboard_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+    background-color: var(--theame10);
+}
+.dashboard_upper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: #0e4cfd; */
+}
+.dashboard_upper_one{
+    background-color: orange;
+}
+.dashboard_upper_two{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #6a8eff;
+}
+.dashboard_upper_two_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c5c8d1;
+}
+.dashboard_upper_two_head_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    /* padding: 0.7rem; */
+    background-color: #a1ff6a;
+}
+.dashboard_upper_two_graph{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.dashboard_upper_two_graph_one,.dashboard_upper_two_graph_two,.dashboard_upper_two_graph_three{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #EBFFD8;
+}
+.dashboard_lower{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: #6a8eff; */
+}
 /* main area  */
 
 .main_heading{
