@@ -510,7 +510,34 @@ label{
     grid-template-columns: 1fr auto;
     align-items: center;
     gap: 1rem;
-    /* background-color: #6a8eff; */
+    background-color: #afb137;
+}
+.dashboard_lower_one{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.dashboard_lower_one_top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.dashboard_lower_one_top_one,.dashboard_lower_one_top_two,.dashboard_lower_one_top_three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6a8eff;
+}
+.dashboard_lower_one_middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.dashboard_lower_two{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    /* padding: 0 1rem; */
 }
 /* main area  */
 
