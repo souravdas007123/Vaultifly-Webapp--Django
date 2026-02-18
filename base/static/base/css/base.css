@@ -533,6 +533,11 @@ label{
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+.dashboard_lower_one_bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
 .dashboard_lower_two{
     display: grid;
     grid-template-columns: 1fr;
